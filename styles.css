@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 12px;
+}
+
+#header {
+  text-align: center;
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+}
+
+#hero {
+  text-align: center;
+  background-color: #444;
+  color: #fff;
+  padding-bottom: 24px;
+}
+
+#hero img {
+  max-width: 150px;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+#about {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.age,
+.phone,
+.email {
+  text-align: left;
+}
+
+#left,
+#right {
+  text-align: center;
+  width: 48%;
+}
+
+footer {
+  text-align: center;
+  color: #333;
+  padding: 10px 0;
+}
+
+#medsos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CSS untuk memperkecil ukuran SVG pada footer */
+footer img {
+  width: 30px; /* You can adjust the size as needed */
+  margin: 5px;
+}
